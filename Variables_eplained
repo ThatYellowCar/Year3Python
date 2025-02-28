@@ -1,0 +1,15 @@
+#Variables explained
+
+#This is a variable
+name = "Gangsta Granny"
+
+#The variable is called a "name"
+#The variable is storing a value
+#The value is "Gangsta Granny"
+#Variables are used in games alot
+#For example:
+score = 0
+#The value in a variable can change (vary)
+#For example
+score = 2600
+#Variables always have a single equals sign
