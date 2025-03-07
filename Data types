@@ -1,0 +1,9 @@
+#Data types
+#C.R.I.B.S
+#Here are variables that hold...
+#...each type of data type
+character = "p" #must have speech marks
+realFloat = 3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679
+integer = 9
+Boolean = False #Capital F
+string = "rt983ghnq6y6834=YNRB]0\3W"
