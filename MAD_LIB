@@ -1,0 +1,9 @@
+adjective = str(input("give me an adjective: "))
+person = str(input("give me a name of a person: "))
+location = str(input("give me a location: "))
+food = str(input("give me a food: "))
+noun_2 = str(input("give me a noun: "))
+
+print("There once was a guy called",person, "who was very", adjective, "he lived in the", location, "and he loved eating", food, ".")
+print("But there was a", noun_2, "which was extremely dangerous to the people who lived in", location, ".")
+print(person,
