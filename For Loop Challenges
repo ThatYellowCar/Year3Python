@@ -1,36 +1,54 @@
+For Loop Challenge 1
+
 for i in range(10):
   print("kebab")
+==================================================================================
+For Loop Challenge 2
 
 for i in range(0, 25, 3):
     print(i)
+==================================================================================
+For Loop Challenge 3
 
 name = str(input("Input your name>>>"))
 for i in range(2):
   print(name)
+==================================================================================
+For Loop Challenge 4
 
 number = int(input("Enter a times table: "))
 for i in range(1,13):
   print("showing the",number,"times table")
   print(i ,"x", number, "=", i+number)
+==================================================================================
+For Loop Challenge 5
 
 for i in range(12, 0, -1):
   print (i)
 print("!!Blast off!!")
+==================================================================================
+For Loop Challenge 6
 
 rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
 number = 0 
 for i in rainbow:
   number = number + 1
   print ("Colour",number*2,"is", i)
+==================================================================================
+For Loop Challenge 7
 
 num= int(input("Enter a number below 100:"))
 for i in range(num, 0, -1):
   print(i)
+==================================================================================
+For Loop Challenge 8
 
 import random
 for i in range(5):
   a = random.randint(0,50)
   print(a)
+==================================================================================
+For Loop Challenge 9
 
 import random
 money = [0, 1, 10, 100, 1000, 10000, 100000]
@@ -38,6 +56,8 @@ mselected = random.choice(money)
 for i in range(1,9):
   print("player", i, "gets", mselected, "extra")
   mselected = random.choice(money)
+==================================================================================
+For Loop Challenge 10
 
 numHouses = int(input("How many houses are booked in?"))
 for i in range(1, numHouses+1):
@@ -46,3 +66,4 @@ for i in range(1, numHouses+1):
   for i in range(1, numWalls+1):
     print("for wall", i)
     col = str(input("What colour is it?"))
+==================================================================================
