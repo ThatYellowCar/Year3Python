@@ -1,2 +1,54 @@
-While loop challenges #1
+While loop challenges 1
+
+password = "STOP"
+while password != "kebab":
+  password = input('Please enter a password: ')
+print ("correct password accepted")
+================================================
+While loop challenges 2
+
+answer = "N"
+while answer != "Y":
+  print("Are we there yet?")
+  answer = str(input("Please respond, y or n: ").upper())
+print("Yay! We are there!!")
+================================================
+While loop challenges 3
+
+StayInLoop = 1
+print("Press 1 for  choice or 2 to exit")
+while StayInLoop != 2:
+  StayInLoop = int(input("Please respond, 1 or 2: "))
+print("Exited")
+================================================
+While loop challenges 4
+
+print("End")
+loopCount = 1
+while loopCount < 10:
+  loopCount = loopCount + 1
+  print("Loop", loopCount)
+print("End")
+================================================
+While loop challenges 5
+
+username = " "
+while not username:
+    username = str(input("Enter username: "))
+print("Username accepted")
+================================================
+While loop challenges 6
+
+import random
+number=random.randint(1,10)
+userGuess=int(input("Guess the number between 1-10:"))
+while not userGuess == number:
+  if number < userGuess:
+    userGuess=int(input("Guess too High, try again: "))
+  else:
+    userGuess=int(input("Guess too Low, try again: "))
+print("Yay! You got it correct!!!")
+================================================
+While loop challenges 7
+
 
